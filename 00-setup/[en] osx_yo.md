@@ -12,7 +12,6 @@ export PATH=$PATH:$GOPATH/bin
 ```
 
 Restart or type the code below to reload the terminal  
-
 ```
 > source ~/.bash_profile
 ```
