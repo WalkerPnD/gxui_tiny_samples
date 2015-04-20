@@ -1,24 +1,25 @@
-# 1. Primeiro Passo
+# 1. Fist Step
 
-Meu ambiente:  
+My Environment:  
 OSX yosemite 10.10.3  
 Golang 1.4.2
 
-Adicione no **"~/.bash_profile"** abaixo.
-Não sei porque mas **não funcionou addicionando no ".bashrc"**
+Add the text below to **"~/.bash_profile"**.  
+I don't know why but **Adding to "~/.bashrc" didn't work for me.**
 ```
 export GOPATH=$HOME/Documents/go
 export PATH=$PATH:$GOPATH/bin
 ```
 
-Reinice ou digite o código para reiniciar  
+Restart or type the code below to reload the terminal  
+
 ```
 > source ~/.bash_profile
 ```
 
-# 2. Instalar o gxui
+# 2. Install gxui
 
-É bom instalar nessa ordem porcausa da dependência.
+I sudgest to install in this order because of the dependencies.
 ```terminal
 brew install glew
 go get http://code.google.com/p/freetype-go/freetype/raster
@@ -29,10 +30,10 @@ go get github.com/google/gxui
 ```
 
 
-# 3. Baixar as fonters
+# 3. Download fonts
 [SourceCodePro](https://www.google.com/fonts#UsePlace:use/Collection:Source+Code+Pro)
 
-# 4. Os Oficiais
+# 4. Official examples
 ```
 go install github.com/google/gxui/samples/...
 ```

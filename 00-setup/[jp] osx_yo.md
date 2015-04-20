@@ -1,22 +1,22 @@
-# 1. Primeiro Passo
+# 1. はじめの一歩
 
-Meu ambiente:  
+環境:  
 OSX yosemite 10.10.3  
 Golang 1.4.2
 
-Adicione no **"~/.bash_profile"** abaixo.
-Não sei porque mas **não funcionou addicionando no ".bashrc"**
+**"~/.bash_profile"**に下の２行を追加.  
+理由はわかりませんが**".bashrc"に追加しても動きませんでした**
 ```
 export GOPATH=$HOME/Documents/go
 export PATH=$PATH:$GOPATH/bin
 ```
 
-Reinice ou digite o código para reiniciar  
+ターミナルを再起動するか、下のコードを打つこ度でもリロードできます。
 ```
 > source ~/.bash_profile
 ```
 
-# 2. Instalar o gxui
+# 2. gxuiのインストール
 
 É bom instalar nessa ordem porcausa da dependência.
 ```terminal
@@ -29,15 +29,15 @@ go get github.com/google/gxui
 ```
 
 
-# 3. Baixar as fonters
+# 3. フォントのダウンロード
 [SourceCodePro](https://www.google.com/fonts#UsePlace:use/Collection:Source+Code+Pro)
 
-# 4. Os Oficiais
+# 4. 付属サンプルのダウンロード
 ```
 go install github.com/google/gxui/samples/...
 ```
 
-# # Sites
+# # 公式サイトなど
 [gxui on GitHub](https://github.com/google/gxui)  
 [gxui/sample  on GitHub](https://github.com/google/gxui/tree/master/samples)  
 [go-gl/gl on GitHub](https://github.com/go-gl/gl)  
