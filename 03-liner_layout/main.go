@@ -16,6 +16,7 @@ func appMain(driver gxui.Driver) {
 
 	layout := theme.CreateLinearLayout()
 	layout.SetSizeMode(gxui.Fill)
+	// Check This !!
 	//layout.SetDirection(gxui.LeftToRight)
 	layout.AddChild(label1)
 	layout.AddChild(label2)
