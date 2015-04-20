@@ -1,12 +1,17 @@
 # 1. Primeiro Passo
 
+Meu ambiente:  
+OSX yosemite 10.10.3  
+Golang 1.4.2
+
 Adicione no **"~/.bash_profile"** abaixo.
 ```
 export GOPATH=$HOME/Documents/go
 export PATH=$PATH:$GOPATH/bin
 ```
 
-Reinice ou digite o código para reiniciar
+Reinice ou digite o código para reiniciar  
+**O ".bashrc" não deu certo no meu ambiente**
 ```
 > . ~/.bash_profile
 ```
