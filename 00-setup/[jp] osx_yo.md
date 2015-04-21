@@ -18,7 +18,7 @@ export PATH=$PATH:$GOPATH/bin
 
 # 2. gxuiのインストール
 
-É bom instalar nessa ordem porcausa da dependência.
+この順番でインストールすると良いようです。	
 ```terminal
 brew install glew
 go get http://code.google.com/p/freetype-go/freetype/raster
