@@ -1,0 +1,4 @@
+sample text
+Hello, world!
+Hello, again!
+Beautiful Go!
