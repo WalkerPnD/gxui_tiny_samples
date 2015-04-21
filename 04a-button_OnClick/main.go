@@ -15,9 +15,9 @@ func appMain(driver gxui.Driver) {
 	onClickFunc := func(gxui.MouseEvent) {
 		if button.Text() == "Yes!" {
 			button.SetText("No!")
-		} else {
-			button.SetText("Yes!")
+			return
 		}
+		button.SetText("Yes!")
 	}
 	button.OnClick(onClickFunc)
 
