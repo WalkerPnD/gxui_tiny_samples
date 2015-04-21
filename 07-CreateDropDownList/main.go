@@ -26,7 +26,7 @@ func appMain(driver gxui.Driver) {
 	overlay := theme.CreateBubbleOverlay()
 	ddlist := theme.CreateDropDownList()
 	ddlist.SetAdapter(adapter)
-	ddlist.SetBubbleOverlay(overlay)
+	ddlist.SetBubbleOverlay(overlay) // Set overlay
 
 	window.AddChild(ddlist)
 	window.AddChild(overlay) // Overlay has to be added
